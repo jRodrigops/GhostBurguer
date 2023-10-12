@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./assets/js/cadastrar.js" defer ></script>
     <title>GhostBurguer</title>
 </head>
 <body>
@@ -36,10 +38,10 @@
 
 
         <div class="row">
-          <form class="col s12">
+          <div class="col s12">
             <div class="row">
               <div class="input-field col s12">
-                <textarea id="" class="materialize-textarea"></textarea>
+                <textarea id="descricao" class="materialize-textarea"></textarea>
                 <label for="descricao">Descrição</label>
                 <span class="helper-text">Descrição do pedido</span>
               </div>
@@ -62,7 +64,8 @@
               <a href="index.html" class="btn black">Cancelar</a>
             </div>
             <div class="col">
-              <a href="index.html" class="btn red">Salvar Pedido</a>
+              <button id="botao-cadastrar" class="btn red">Salvar pedido</button>
+            </div>
             </div>
 
           </div>
