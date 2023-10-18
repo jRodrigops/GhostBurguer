@@ -1,6 +1,6 @@
 document.querySelector("#botao-cadastrar").addEventListener("click", () => {
 
-    let tarefas = JSON.parse (localStorage.getItem("tarefas")) || [] 
+    let tarefas = JSON.parse(localStorage.getItem("tarefas")) || [] 
 
 
 

@@ -12,9 +12,9 @@ function criarCard(tarefa){
     card.innerHTML = `
     <div class="card">
              <div class="card-content">
-               <span class="card-title">${tarefa.titulo}</span>
-               <p>${tarefa.descricao}</p>
-               <span data-badge-caption="preco" class""badge blue white text">${tarefa.preco}</span>
+               <span class="card-title">Pedido: ${tarefa.titulo}</span>
+               <p>Descrição: ${tarefa.descricao}</p>
+               <span data-badge-caption="preco" class""badge blue white text">Preço: R$${tarefa.preco}</span>
              </div>
              <div class="card-action">
                <a href="#" class="btn black">Remover
