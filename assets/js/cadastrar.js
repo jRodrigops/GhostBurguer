@@ -17,9 +17,9 @@ const tarefa = {
 
 tarefas.push(tarefa)
 
-
     localStorage.setItem("tarefas", JSON.stringify(tarefas))
 
 
     window.location.href = "index.html"
+    calcularEstatisticas()
 })
