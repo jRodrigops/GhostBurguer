@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <script src="./assets/js/carregar.js"></script>
     <script src="./assets/js/apagar.js" defer></script>
     <script src="./assets/js/concluir.js" ></script>
@@ -13,12 +14,12 @@
 </head>
 <body>
     <nav>
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo">GhostBurguer</a>
+        <div class="nav-wrapper black">
+          <a href="#" class="brand-logo center "><span class="colored-text">GhostBurguer</span></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li class="active"><a href="/">Pedidos</a></li>
-            <li><a href="criarPedidos.html">Criar Pedidos </a></li>
-            <li><a href="perfil.html">Perfil</a></li>
+            <li class="active"><a href="/"><span class="colored-text">Pedidos</span></a></li>
+            <li><a href="criarPedidos.html"><span class="colored-text">Criar Pedidos</span></a></li>
+            <li><a href="perfil.html"><span class="colored-text">Perfil</span></a></li>
           </ul>
         </div>
       </nav>
@@ -30,27 +31,27 @@
 
         <div class="row">
           <div class="col s12 m6 l3">
-            <div class="card-panel center pink white-text">
+            <div class="card-panel center red white-text">
               <h3 id="qtde-pendente">0</h3>
-              <span>Tarefas Pendentes</span>
+              <span>Pedidos Pendentes</span>
             </div>
           </div>
           <div class="col s12 m6 l3">
-            <div class="card-panel center green white-text">
+            <div class="card-panel center black white-text">
               <h3 id="qtde-concluida">0</h3>
-              <span>Tarefas Concluidas</span>
+              <span>Pedidos Concluidas</span>
             </div>
           </div>
           <div class="col s12 m6 l3">
-            <div class="card-panel center indigo white-text">
+            <div class="card-panel center red white-text">
               <h3 id="total-pontos">0</h3>
               <span>Total de Pontos</span>
             </div>
           </div>
           <div class="col s12 m6 l3">
-            <div class="card-panel center pink white-text">
+            <div class="card-panel center black white-text">
               <h3 id="meus-pontos">0</h3>
-              <span>Meus Pontos</span>
+              <span>Faturamento do dia</span>
             </div>
           </div>
         </div>

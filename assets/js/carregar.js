@@ -18,6 +18,9 @@ function criarCard(tarefa){
                <span class="card-title">Pedido: ${tarefa.titulo}</span>
                <p>Descrição: ${tarefa.descricao}</p>
                <span data-badge-caption="preco" class""badge blue white text">Preço: R$${tarefa.preco}</span>
+               <span><br>Status:</span>
+               <span>${tarefa.concluida ? 'Concluido' : ''} </span>
+               <i class="material-icons">${tarefa.concluida ? 'check' : ''} </span>
              </div>
              <div class="card-action">
                <a href="#" class="btn black" onClick="apagar(${tarefa.id})">Remover
