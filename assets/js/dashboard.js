@@ -10,7 +10,9 @@ function calcularEstatisticas() {
 
     
     const totalPontos = tarefas.reduce((total,t) => total += +t.pontos, 0)
-    document.querySelector("#total-pontos").innerHTML = qtdeConcluida
+    document.querySelector("#total-pontos").innerHTML = qtdeConcluida + qtdePendente
+
+    
 
     const meuPontos = tarefas.reduce((total,t) => total += +t.preco, 0)
     document.querySelector("#meus-pontos").innerHTML = meuPontos
